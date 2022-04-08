@@ -1,5 +1,7 @@
 package com.switchfully.order.item;
 
+import com.switchfully.order.item.dtos.AddItemDto;
+import com.switchfully.order.item.dtos.ItemDto;
 import io.restassured.RestAssured;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -19,14 +21,13 @@ public class ItemControllerIntegrationTest {
 
     @Test
     void givenANewItem_whenYouAddAnItem_thenItemIsAddedToDatabase() {
-        AddItemDto addItemDto = new AdditemDto(
+        AddItemDto addItemDto = new AddItemDto(
                 "Iphone 13",
                 "Apple Smartphone",
                 1000.00,
                 15);
 
-        Admin admin = new Admin(new UsernamePassword("Michael", "Jorden"));
-        adminRepositiry.save(admin);
+
 
         ItemDto itemDto =
                 RestAssured
