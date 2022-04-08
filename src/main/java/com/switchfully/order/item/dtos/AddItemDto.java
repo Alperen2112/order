@@ -6,7 +6,7 @@ public class AddItemDto {
     private final double price;
     private final int amount;
 
-    public AddItemDto(String name, String description, double price, int amount) {
+    public AddItemDto(String name, String description, Double price, int amount) {
         this.name = name;
         this.description = description;
         this.price = price;
