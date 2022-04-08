@@ -1,4 +1,4 @@
-package com.switchfully.order.users.customer.dtos;
+package com.switchfully.order.customer.dtos;
 
 public class RegisterCustomerDto {
     private final String firstName;

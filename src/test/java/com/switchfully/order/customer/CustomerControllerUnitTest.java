@@ -1,6 +1,7 @@
-package com.switchfully.order.users.customer;
+package com.switchfully.order.customer;
 
-import com.switchfully.order.users.customer.dtos.RegisterCustomerDto;
+import com.switchfully.order.customer.CustomerRepository;
+import com.switchfully.order.customer.dtos.RegisterCustomerDto;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

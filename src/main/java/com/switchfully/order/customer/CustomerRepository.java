@@ -1,4 +1,4 @@
-package com.switchfully.order.users.customer;
+package com.switchfully.order.customer;
 
 import org.springframework.stereotype.Repository;
 

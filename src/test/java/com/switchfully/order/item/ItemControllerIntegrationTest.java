@@ -1,6 +1,5 @@
 package com.switchfully.order.item;
 
-import com.switchfully.order.users.customer.dtos.CustomerDto;
 import io.restassured.RestAssured;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

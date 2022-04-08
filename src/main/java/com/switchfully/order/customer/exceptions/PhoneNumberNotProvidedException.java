@@ -1,4 +1,4 @@
-package com.switchfully.order.users.customer.exceptions;
+package com.switchfully.order.customer.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
