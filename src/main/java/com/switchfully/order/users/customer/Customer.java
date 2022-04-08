@@ -1,4 +1,4 @@
-package com.switchfully.order.customer;
+package com.switchfully.order.users.customer;
 
 import java.util.UUID;
 

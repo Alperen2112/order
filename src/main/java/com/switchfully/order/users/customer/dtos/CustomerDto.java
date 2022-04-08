@@ -1,4 +1,4 @@
-package com.switchfully.order.customer.dtos;
+package com.switchfully.order.users.customer.dtos;
 
 public class CustomerDto {
 

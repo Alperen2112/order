@@ -1,8 +1,9 @@
-package com.switchfully.order.customer;
+package com.switchfully.order.users.customer;
 
-import com.switchfully.order.customer.dtos.CustomerDto;
-import com.switchfully.order.customer.dtos.RegisterCustomerDto;
-import com.switchfully.order.customer.exceptions.*;
+import com.switchfully.order.users.customer.dtos.CustomerDto;
+import com.switchfully.order.users.customer.dtos.RegisterCustomerDto;
+import com.switchfully.order.users.customer.exceptions.*;
+import com.switchfully.order.users.customer.exceptions.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
